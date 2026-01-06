@@ -41,7 +41,7 @@ Web-based port of GTA: Vice City running in browser via WebAssembly.
 The easiest way to get started is using Docker Compose:
 
 ```bash
-PACKED=https://folder.morgen.monster/revcdos.bin docker compose up -d --build
+PACKED=https://folder.morgen.qzz.io/revcdos.bin docker compose up -d --build
 ```
 
 To configure server options via environment variables:
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 2. Start the server:
 ```bash
-python server.py --packed https://folder.morgen.monster/revcdos.bin
+python server.py --packed https://folder.morgen.qzz.io/revcdos.bin
 ```
 
 Server starts at `http://localhost:8000`
